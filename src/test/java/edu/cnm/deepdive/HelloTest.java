@@ -8,6 +8,6 @@ public class HelloTest {
 
   @Test
   public void sayHello() {
-    assertEquals(expected, "Hello", new Hello().sayHello());
+    assertEquals("Hello", new Hello().sayHello());
   }
 }
